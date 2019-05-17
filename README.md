@@ -7,3 +7,6 @@ Description of the project:
 This is a robot based camera system fitted on a robot chasis , the main code running in loop in the Rpi is taking continuous live feed of the surroundings covering 360 degrees. 
 As soon as a person is detected in the camera frame , the frame is tested in the Face Recognition model and is determined whether the person is Authorised or not ( depending on pictures of authorised person in the database ).
 If the Person is Unauthorised, the robot will stop such as the person's face is in the camera frame and a mail will be sent to the owner with the link to a continuous live feed of the camera showing the activities of the unauthorized person including an attachment with the Unauthorised person's picture highlighting his face in a red box.
+
+Before proceeding make sure you have OpenCV installed in your Raspberry pi or refer to the link below for OpenCV installation in Raspberry Pi
+https://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/
